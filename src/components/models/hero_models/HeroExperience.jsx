@@ -4,7 +4,7 @@ import { useMediaQuery } from "react-responsive";
 
 import { Room } from "./Room";
 import HeroLights from "./HeroLights";
-import Particles from "./Particles";
+import Snowflakes from "./Flowers";
 import { Suspense } from "react";
 
 const HeroExperience = () => {
@@ -13,8 +13,8 @@ const HeroExperience = () => {
 
   return (
     <Canvas camera={{ position: [0, 0, 15], fov: 45 }}>
-      {/* deep blue ambient */}
-      <ambientLight intensity={0.2} color="#1a1a40" />
+      {/* deep pink ambient */}
+      <ambientLight intensity={0.2} color="#ff1493ff" />
       {/* Configure OrbitControls to disable panning and control zoom based on device type */}
       <OrbitControls
         enablePan={false} // Prevents panning of the scene
@@ -27,7 +27,7 @@ const HeroExperience = () => {
 
       <Suspense fallback={null}>
         <HeroLights />
-        <Particles count={100} />
+        <Snowflakes count={100} />
         <group
           scale={isMobile ? 0.7 : 1}
           position={[0, -3.5, 0]}
