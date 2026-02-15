@@ -30,8 +30,8 @@ const words = [
 
 const counterItems = [
   { value: 3, suffix: "", label: "Professional Experiences" },
-  { value: 20, suffix: "+", label: "Full Stack Projects" },
-  { value: 30, suffix: "+", label: "Students Mentored at GDG" },
+  { value: 30, suffix: "+", label: "Full Stack Projects" },
+  { value: 20, suffix: "+", label: "Students Mentored at GDG" },
   { value: 8, suffix: "+", label: "CGPA at GGSIPU" },
 ];
 
@@ -259,20 +259,14 @@ const testimonials = [
 
 const socialImgs = [
   {
-    name: "insta",
-    imgPath: "/images/insta.png",
-  },
-  {
-    name: "fb",
-    imgPath: "/images/fb.png",
-  },
-  {
-    name: "x",
-    imgPath: "/images/x.png",
-  },
-  {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    link: "https://www.linkedin.com/in/vaishnavi-mishra-b17ba6256",
+  },
+  {
+    name: "github",
+    imgPath: "/images/whitegit.png",
+    link: "https://github.com/VaishnaviiMishra",
   },
 ];
 

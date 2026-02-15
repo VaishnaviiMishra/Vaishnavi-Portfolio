@@ -118,7 +118,7 @@ const Experience = () => {
                     </div>
                     <div className="expText flex xl:gap-20 md:gap-10 gap-5 relative z-20">
                       <div className="timeline-logo">
-                        <img src={card.logoPath} alt="logo" className="w-11 h-11" />
+                        <img src={card.logoPath} alt="logo" className="w-7 h-7 md:w-11 md:h-11" />
                       </div>
                       <div>
                         <h1 className="font-semibold text-3xl">{card.title}</h1>

@@ -49,7 +49,7 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/project8.png" alt="Series Analyzer" />
+              <img src="/images/project8.png" alt="Series Analyzer" className="object-contain" />
             </div>
             <div className="text-content">
               <h2>
@@ -65,10 +65,11 @@ const AppShowcase = () => {
 
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={libraryRef}>
-              <div className="image-wrapper bg-[#FFEFDB]">
+              <div className="image-wrapper ">
                 <img
                   src="/images/project7.png"
                   alt="StudyWithNotes Platform"
+                  className="object-contain"
                 />
               </div>
               <h2>StudyWithNotes - AI Generated Course Platform</h2>
@@ -80,8 +81,8 @@ const AppShowcase = () => {
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
-              <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project9.png" alt="Kanban Platform" />
+              <div className="image-wrapper">
+                <img src="/images/project9.png" alt="Kanban Platform" className="object-contain" />
               </div>
               <h2>Real-Time Collaborative Kanban Platform</h2>
               <ul className="text-white-50 md:text-lg list-disc list-inside space-y-2 mt-3">

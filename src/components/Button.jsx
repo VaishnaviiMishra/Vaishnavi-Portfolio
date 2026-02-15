@@ -6,7 +6,7 @@
 const Button = ({ text, className, id }) => {
   return (
     <a
-      href="https://drive.google.com/drive/folders/1l5N7tonuOS8YDGZME9RTl5JC4omRqKal?usp=drive_link"
+      href="https://pdflink.to/vaishnaviresume/"
       target="_blank"
       rel="noopener noreferrer"
       onClick={(e) => {
